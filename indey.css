@@ -1,0 +1,21 @@
+*{
+    margin-top:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#template{
+
+    height:300px;
+    width:300px;
+    background-color: skyblue;
+
+
+}
+
+.template_container{
+    height:200px;
+    width:200px;
+
+
+}
