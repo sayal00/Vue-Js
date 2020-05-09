@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="vue.js"></script>
+    <link rel="stylesheet" href="indey.css">
+</head>
+<body>
+
+<div id="template" >
+    <div class="template_container">
+        <img v-bind:src ="url" alt="image" style="width:100%;height:100%">
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    var modelGolu={
+        name: 'Golu',
+        info : 'her name is golu and I love her so much.And she is mine',
+        hobby:"sleeping,foody,travelling",
+        url:"./pic/gol.JPG"
+
+    }
+
+    var modelMe = {
+        name:'sayal',
+        info : "this is me sayal and i live in nakhipot.I am 22 years old.I've girlfriend named golu and i have 4 member in my family",
+        hobby:"coding,travelling,fitness",
+        url:"./me.jpg",
+
+
+    }
+    var modelFamily ={
+        name:'my family',
+        info: "they are my family. my mother,father and brother.I've my grandmotger also but i donot have her picture ",
+        hobby:"sing,dance,earn",
+        url: "./pic/myfam.jpg",
+
+
+    }
+    var modelLogo ={
+        name:"Rose Mount Pre-School",
+        info: "this is my mothers school.It is located at prayagpokhari and thecho lalitpur.more than 200 student study in this school",
+        hobby :"teach,learn",
+        url:"./pic/logo.png",
+    }
+
+    var modelStyling={
+        style:"width:300px,height:300px",
+    }
+
+    var vm = new Vue({
+        el: "#template",
+        data :modelGolu,
+    })
+
+
+</script>
+
+</body>
+</html>
