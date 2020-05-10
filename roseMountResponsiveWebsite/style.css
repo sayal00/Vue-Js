@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.imgSunMoon,.nav-links{
+    display: flex;
+}
+.imgSunMoon{
+    flex: 1;
+}
+.imgSunMoon h2{
+    color: maroon;
+}
+nav{
+    flex: 2;
+    justify-content: flex-end;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    color: orange;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 75vh;
+    align-items: center;
+}
+
+.introduction{
+    flex: 1;
+}
+.introduction h1{
+    font-size: xx-large;
+    background: linear-gradient(to right, maroon, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.introduction p{
+    margin-top: 8px;
+    font-size: medium;
+    color: darkgoldenrod;
+}
+.pictures{
+    flex: 1;
+    text-align: center;
+}
+footer{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin: auto;
+    align-items: flex-start;
+}
+.contact{
+    flex: 1;
+}
+.contact p{
+    color: maroon;
+    font-size: small;
+}
+.centers{
+    flex: 1;
+}
+.faq{
+    flex: 1;
+}
+.ul-faq{
+    list-style: none;
+}
+.a-faq{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.location{
+    flex: 1;
+}
+
+.location a{
+    text-decoration: none;
+    color: maroon;
+    cursor: pointer;
+    border: 1px solid maroon;
+    padding: 2px;
+
+}
+.location p{
+    font-size: small;
+}
+.copyright{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        height: 5vh;
+        align-items: center;
+    }
+    .imgSunMoon h2 {
+        font-size: xx-large;
+    }
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .nav-link{
+        padding-left: 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        align-items: center;
+    }
+    .pictures img {
+        margin-top: 2vh;
+        width: 60%;
+    }
+    .introduction{
+       margin-top: 2vh;
+    }
+
+    footer{
+        margin-top: 3vh;
+    }
+
+}
+
+
+
+

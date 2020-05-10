@@ -1,2 +1,3 @@
 # Website
-this is a reposetory where i am learing to make responsive website
+
+fuche maile first site yesto banko chu her kasto cha??
