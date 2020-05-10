@@ -1,2 +1,2 @@
-# Vue-Js
-this is a reposetory where i am learing Vue js
+# Website
+this is a reposetory where i am learing to make responsive website
